@@ -41,9 +41,27 @@
   border: 2px solid black;
   border-radius: 50%;
   padding: 1rem;
-  width: 6rem;
-  height: 6rem;
+  width: 10vw;
+  height: 10vw;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+@media (max-width: 600px) {
+  .date {
+    font-size: 1.2rem;
+    padding: 0.5rem 2rem;
+  }
+  
+  .circle {
+    width: 4rem;
+    height: 4rem;
+    font-size: 1.5rem;
+  }
+  
+  .time {
+    gap: 1rem;
+    font-size: 2rem;
+  }
 }
